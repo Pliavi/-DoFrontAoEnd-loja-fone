@@ -1,10 +1,26 @@
 header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #e24647;
+}
+
+header::after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+nav{
+    flex-grow: 0;
+    float: right;
 }
 
 h1 {
     font-size: 40px;
     color: #fff;
+    flex-grow: 1;
+    float: left;
     font-family: ArialMT
 }
 
