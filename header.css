@@ -5,10 +5,12 @@ header {
 h1 {
     font-size: 40px;
     color: #fff;
+    font-family: ArialMT
 }
 
 a {
     color: #fff;
+    font-family: SegoeUI, 'Segoe UI';
     text-decoration: none;
     font-size: 21px;
 }
