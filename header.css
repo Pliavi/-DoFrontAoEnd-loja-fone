@@ -21,7 +21,7 @@ h1 {
     font-family: ArialMT, sans-serif;
 }
 
-a {
+nav a {
     color: #fff;
     font-family: SegoeUI, 'Segoe UI', sans-serif;
     text-decoration: none;
@@ -29,6 +29,21 @@ a {
     margin-right: 60px;
 }
 
-a:last-child {
+nav a:last-child {
     margin-right: 0;
+}
+
+.button-buy {
+    display: inline-block;
+    background-color: #252c41;
+    color: white;
+    
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    
+    width: 200px;
+    line-height: 60px;
+
 }
