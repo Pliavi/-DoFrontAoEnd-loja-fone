@@ -3,12 +3,9 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: #e24647;
-}
-
-header::after {
-    display: block;
-    content: '';
-    clear: both;
+    overflow: hidden;
+    padding: 65px;
+    margin: 0 115px;
 }
 
 nav{
@@ -21,12 +18,12 @@ h1 {
     color: #fff;
     flex-grow: 1;
     float: left;
-    font-family: ArialMT
+    font-family: ArialMT, sans-serif;
 }
 
 a {
     color: #fff;
-    font-family: SegoeUI, 'Segoe UI';
+    font-family: SegoeUI, 'Segoe UI', sans-serif;
     text-decoration: none;
     font-size: 21px;
 }
