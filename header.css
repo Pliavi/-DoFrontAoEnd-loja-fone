@@ -1,11 +1,22 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main {
+    background-color: #e24647;
+    padding: 65px;
+    margin: 0 115px;
+    width: 100%;
+}
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #e24647;
     overflow: hidden;
-    padding: 65px;
-    margin: 0 115px;
 }
 
 nav{
