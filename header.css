@@ -26,4 +26,9 @@ a {
     font-family: SegoeUI, 'Segoe UI', sans-serif;
     text-decoration: none;
     font-size: 21px;
+    margin-right: 60px;
+}
+
+a:last-child {
+    margin-right: 0;
 }
