@@ -1,0 +1,31 @@
+.item-info {
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.item-title {
+    font-size: 25px;
+    margin-bottom: 150px;
+}
+
+.item-description {
+    line-height: 1.67; 
+    margin-bottom: 30px;
+}
+
+.item-stars {
+    margin-bottom: 28px;
+}
+
+.item-price {
+    margin-bottom: 72px;
+}
+.item-price dd:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+.see-more {
+    color: #fff;
+    text-decoration: none;
+}
