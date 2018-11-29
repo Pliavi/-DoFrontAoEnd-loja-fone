@@ -12,6 +12,9 @@ Linguagem de marcação utilizada na estruturação dos conteúdo e semantica pa
 - `header`: Define semânticamente uma área de cabeçalho;
 - `h1`: Define semânticamente um título de alta importância;
 - `nav`: Define semânticamente uma área de navegação;
-- `a`: De anchor("âncora"), utilizado para colocar um link para outra página ou que leva para um ponto da página atual.
+- `a`: De anchor("âncora"), utilizado para colocar um link para outra página ou que leva para um ponto da página atual;
+- `main`: Define o conteúdo principal da página.
+
+# CSS:
 
 

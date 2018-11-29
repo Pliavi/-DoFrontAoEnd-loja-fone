@@ -5,26 +5,21 @@ body {
     height: 100vh;
 }
 
-main {
+.store-wrapper {
     background-color: #e24647;
     padding: 65px;
     margin: 0 115px;
     width: 100%;
 }
 
-header {
+.store-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     overflow: hidden;
 }
 
-nav{
-    flex-grow: 0;
-    float: right;
-}
-
-h1 {
+.title {
     font-size: 40px;
     color: #fff;
     flex-grow: 1;
@@ -32,7 +27,12 @@ h1 {
     font-family: ArialMT, sans-serif;
 }
 
-nav a {
+.navigation {
+    flex-grow: 0;
+    float: right;
+}
+
+.navigation a {
     color: #fff;
     font-family: SegoeUI, 'Segoe UI', sans-serif;
     text-decoration: none;
@@ -40,21 +40,6 @@ nav a {
     margin-right: 60px;
 }
 
-nav a:last-child {
+.navigation a:last-child {
     margin-right: 0;
-}
-
-.button-buy {
-    display: inline-block;
-    background-color: #252c41;
-    color: white;
-    
-    text-align: center;
-    text-decoration: none;
-    font-size: 20px;
-    font-family: Arial, sans-serif;
-    
-    width: 200px;
-    line-height: 60px;
-
 }
