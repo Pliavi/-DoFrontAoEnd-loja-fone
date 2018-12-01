@@ -1,13 +1,10 @@
-section {
-}
-
-section::after {
+.item::after {
     display: block;
     content: '';
     clear: both;
 }
 
-.item-photo {
+.item > .photo {
     float: left;
     min-width: 480px;
     width: 600px;
@@ -20,8 +17,8 @@ section::after {
     text-align: right;
 }
 
-.item-photo img {
-    margin-right: -70px;
+.item > .photo img {
+    margin-right: -60px;
 }
 
 .item-info {
@@ -33,34 +30,32 @@ section::after {
     font-family: 'Roboto', sans-serif;
 }
 
-.item-title {
+.item .title {
     font-size: 25px;
     margin-bottom: 150px;
 }
 
-.item-description {
+.item .description {
     line-height: 1.67; 
     margin-bottom: 30px;
 }
 
-.item-stars {
+.item .stars {
     margin-bottom: 28px;
 }
 
-.item-price {
+.item .price {
     margin-bottom: 72px;
 }
-.item-price dd:not(:last-child) {
+.item .price dd:not(:last-child) {
     margin-bottom: 16px;
 }
 
-.item-see-more {
+.item .see-more {
     color: #fff;
     text-decoration: none;
 }
 
-.item-buy {
+.item > .buy {
     clear: both;
-    float: right;
-    width: 60%;
 }

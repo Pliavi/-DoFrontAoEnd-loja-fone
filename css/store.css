@@ -1,0 +1,13 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.store {
+    background-color: #e24647;
+    padding: 65px;
+    margin: 0 115px;
+    width: 100%;
+}
