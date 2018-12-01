@@ -58,4 +58,10 @@
 
 .item > .buy {
     clear: both;
+    float: right;
+    width: 60%;
+}
+
+.item > .buy > .button-buy {
+    margin-right: 40px;
 }
