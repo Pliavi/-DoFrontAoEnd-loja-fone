@@ -3,6 +3,7 @@
     justify-content: space-between;
     align-items: center;
     overflow: hidden;
+    margin-bottom: 96px;
 }
 
 .header > .title {
@@ -28,4 +29,28 @@
 
 .header > .navigation a:last-child {
     margin-right: 0;
+}
+
+.search {
+    flex: 1;
+    margin-right: 65px; 
+}
+
+.search > .bar {
+    display: block;
+    background: transparent;
+    color: #fff;
+    border: 0;
+    border-bottom: 1px solid #fff;
+    width: 100%;
+    padding: 8px;
+    font-size: 20px;
+    outline: none;
+}
+
+.search .bar::placeholder {
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    line-height: 1.2;
 }
