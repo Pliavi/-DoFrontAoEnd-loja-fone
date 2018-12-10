@@ -37,8 +37,15 @@
 }
 
 .item .title {
+    position: relative;
     font-size: 25px;
     margin-bottom: 50px;
+}
+
+.title > .heart {
+    position: absolute;
+    left: -64px;
+    cursor: pointer;
 }
 
 .item .description {
