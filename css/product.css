@@ -96,12 +96,64 @@
     clear: both;
     float: right;
     position: relative;
-    width: 60%;
+    width: 100%;
     margin-left: auto;
-    left: -65px;
     margin-top: 72px;
+    text-align: right;
 }
 
-.buy > .button-buy {
+.buy > .button-buy:not(:last-child) {
     margin-right: 40px;
+}
+
+@media(max-width: 1080px) {
+    .item {
+        display: block;
+        text-align: center;
+    }
+
+    .item > .photo {
+        display: block;
+        float: none;
+        box-sizing: border-box;
+        background-color: #fff;
+        position: static;
+        border-radius: 50px;
+        margin: 0 auto 48px auto;
+    }
+    
+    .item > .photo img {
+        margin-right: 0;
+    }
+
+    .item .description {
+        line-height: 1.67; 
+        margin-bottom: 30px;
+        padding: 0 28px;
+    }
+
+    .item > .item-info {
+        float: none;
+    }
+
+    .item > .buy {
+        float: none;
+        text-align: center;
+        width: 100%;
+        position: static;
+    }
+
+    .item-info > .title {
+        position: relative;
+        top: -40px;
+    }
+
+    .item-info > .title > .heart {
+        display: block;
+        position: relative;
+        cursor: pointer;
+        margin: 0 auto 10px auto;
+        left: unset;
+        top: 95px;
+    }
 }
