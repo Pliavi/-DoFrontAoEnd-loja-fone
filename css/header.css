@@ -12,6 +12,10 @@
     flex-grow: 1;
     float: left;
     font-family: ArialMT, sans-serif;
+    text-transform: uppercase;
+}
+.title > span {
+    cursor: pointer;
 }
 
 .header > .navigation {
