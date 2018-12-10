@@ -14,7 +14,21 @@
     text-decoration: none;
 }
 
+.button-buy:hover {
+    background-color: #fff;
+    color: #252c41;
+}
+
 .button-buy.-second {
     background-color: transparent;
     border: 2px solid #fff;
+}
+
+.button-buy.-second:hover {
+    background-color: #fff;
+    color: #e24647;
+}
+
+.button-buy:hover {
+    transition: all 150ms;
 }
