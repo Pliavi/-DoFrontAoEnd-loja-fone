@@ -1,3 +1,9 @@
+.item {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 .item::after {
     display: block;
     content: '';
@@ -48,6 +54,10 @@
     margin-bottom: 25px;
 }
 
+.rating .number {
+    padding-left: 8px;
+}
+
 .rating .stars img {
     margin-left: 8px;
 } 
@@ -67,9 +77,21 @@
 .item > .buy {
     clear: both;
     float: right;
+    position: relative;
     width: 60%;
+    margin-left: auto;
+    left: -65px;
+    margin-top: 72px;
 }
 
 .item > .buy > .button-buy {
     margin-right: 40px;
+}
+
+
+
+._22Mb1:hover, 
+._22Mb1:hover.jVjtZ svg {
+    width: initial;
+    height: initial;
 }
