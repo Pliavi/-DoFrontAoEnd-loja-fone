@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    overflow: hidden;
+    /*overflow: hidden;*/
     margin-bottom: 96px;
 }
 
@@ -29,10 +29,24 @@
     text-decoration: none;
     font-size: 21px;
     margin-right: 60px;
+    position: relative;
 }
 
-.header > .navigation a:hover {
-    border-bottom: 1px solid #fff;
+.header > .navigation a::after {
+    display: block;
+    content: "";
+    width: 0;
+    height: 1px;
+    position: absolute;
+    background: #fff;
+    left: -10%;
+    bottom: -8px;
+    transition: all 200ms;
+}
+
+.header > .navigation a:hover::after {
+    width: 120%;
+    transition: all 200ms;
 }
 
 .header > .navigation a:last-child {
