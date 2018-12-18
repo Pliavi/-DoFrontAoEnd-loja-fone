@@ -1,5 +1,6 @@
-const cart = document.querySelector(".cart");
+const $cart = document.querySelector(".cart");
+const $addCart = document.querySelector(".-second");
 
-cart.addEventListener('click', function(){
-    console.log("eae!");
-})
+$addCart.addEventListener('click', function() {
+    $cart.textContent = "Eae! (10)";
+});
