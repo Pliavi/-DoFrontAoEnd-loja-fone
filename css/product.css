@@ -44,9 +44,16 @@
 }
 
 .title > .heart {
+    background-image: url("../img/heart-empty.png");
+    background-repeat: no-repeat;
+    width: 33px;
+    height: 29px;
     position: absolute;
     left: -80px;
     cursor: pointer;
+}
+.title > .heart.active {
+    background-image: url("../img/heart-filled.png");
 }
 
 .item .description {
@@ -63,7 +70,7 @@
 }
 
 .stars img:hover, .heart:hover {
-    transform: scale(1.1);
+    transform: scale(1.15);
 }
 
 .rating .number {
@@ -118,7 +125,7 @@
         position: relative;
         border-radius: 0;
         margin: 0 0 48px 0;
-        width: calc(100% + 65px * 2);
+        width: calc(100% + 65px);
         text-align: center;
         max-width: initial;
     }
