@@ -5,10 +5,19 @@ $heart.addEventListener('click', function() {
     $heart.classList.toggle('active');
 });
 
-
-$stars.forEach(function($star) {
+$stars.forEach(function($star, index) {
     $star.addEventListener('click', function() {
-        $star.classList.toggle('active');
+        changeRank(index);
     });
 })
 
+function changeRank(indexClicked) {
+    $stars.forEach(function($star, index) {
+        if(index <= indexClicked) {
+            $star.classList.add('active');
+            return;
+        }
+
+        $star.classList.remove('active');
+    });
+}
