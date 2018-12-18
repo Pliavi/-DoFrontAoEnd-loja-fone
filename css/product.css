@@ -21,7 +21,7 @@
     left: -65px;
     border-radius: 0 150px 150px 0;
     text-align: right;
-    margin-right: 150px;
+    margin-right: 5%;
 }
 
 .item > .photo img {
@@ -70,7 +70,7 @@
     padding-left: 8px;
 }
 
-.rating .stars img {
+.rating .stars img:not(:first-child) {
     margin-left: 8px;
     cursor: pointer;
 } 
@@ -78,6 +78,7 @@
 .item .price {
     margin-bottom: 72px;
 }
+
 .item .price dd:not(:last-child) {
     margin-bottom: 16px;
 }
@@ -113,17 +114,13 @@
     }
 
     .item > .photo {
-        display: block;
         float: none;
-        box-sizing: border-box;
-        background-color: #fff;
-        position: static;
-        border-radius: 50px;
-        margin: 0 auto 48px auto;
-    }
-    
-    .item > .photo img {
-        margin-right: 0;
+        position: relative;
+        border-radius: 0;
+        margin: 0 0 48px 0;
+        width: calc(100% + 65px * 2);
+        text-align: center;
+        max-width: initial;
     }
 
     .item .description {
@@ -155,5 +152,13 @@
         margin: 0 auto 10px auto;
         left: unset;
         top: 95px;
+    }
+
+    .rating .number {
+        padding: 0;
+    }
+
+    .item .price strong{
+        text-align: left;
     }
 }

@@ -4,6 +4,7 @@ body {
     align-items: center;
     min-height: 100vh;
     background-color: #252a34;
+    background-image: linear-gradient(to top, #ff2e63, #252a34);
 }
 
 .store {
@@ -11,6 +12,12 @@ body {
     padding: 65px;
     margin: 3vw;
     width: 100%;
+}
+
+@media(max-width: 1080px) {
+    .store {
+        margin: 0;
+    }
 }
 
 @media(max-width: 780px) {

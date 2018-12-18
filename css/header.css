@@ -28,12 +28,14 @@
 }
 
 .header > .navigation a {
+    display: inline-block;
     color: #fff;
     font-family: SegoeUI, 'Segoe UI', sans-serif;
     text-decoration: none;
     font-size: 21px;
     margin-right: 5%;
     position: relative;
+    white-space: nowrap;
 }
 
 .header > .navigation a::after {
@@ -82,7 +84,6 @@
     line-height: 1.2;
 }
 
-/* Breakpoints */
 @media(max-width: 1080px) {
     .store > .header {
         display: block;
@@ -106,5 +107,14 @@
 
     .header > .search {
         width: 30%;
+    }
+}
+
+@media(max-width: 1080px) {
+    .header > .search, 
+    .header > .navigation{
+        display: block;
+        width: 90%;
+        margin: 0 auto 20px auto;
     }
 }
