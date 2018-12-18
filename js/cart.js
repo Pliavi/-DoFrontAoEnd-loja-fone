@@ -1,3 +1,5 @@
 const cart = document.querySelector(".cart");
 
-console.log(cart);
+cart.addEventListener('click', function(){
+    console.log("eae!");
+})
